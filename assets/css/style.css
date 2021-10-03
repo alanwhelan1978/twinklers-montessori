@@ -10,6 +10,7 @@ body {
     font-family: Noto Sans JP, sans-serif;
     font-weight: 400;
     color: #000080;
+    background-color: #89CFF0;
 }
 
 /* headings and logo */
@@ -55,3 +56,18 @@ h1, h2 {
 .active {
     border-bottom: 1px solid #203354;
 }
+
+/* Home page image */
+
+#home-outer {
+    height: 525px;
+    width: 100%;  
+    overflow: hidden; 
+}
+
+#home-page {
+    height: 525px;
+    width: 100%;
+    background: url(../css/images/fingers.jpg) no-repeat center center;
+}
+
