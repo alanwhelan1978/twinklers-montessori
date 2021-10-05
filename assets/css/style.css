@@ -15,7 +15,8 @@ body {
 
 /* headings and logo */
 
-h1, h2 {
+h1,
+h2 {
     font-family: Roboto, sans-serif;
     text-transform: uppercase;
     letter-spacing: 2px;
@@ -34,7 +35,8 @@ h1, h2 {
     letter-spacing: 2px;
 }
 
-#menu, #logo {
+#menu,
+#logo {
     line-height: 75px;
 }
 
@@ -61,8 +63,8 @@ h1, h2 {
 
 #home-outer {
     height: 525px;
-    width: 100%;  
-    overflow: hidden; 
+    width: 100%;
+    overflow: hidden;
 }
 
 #home-page {
@@ -71,3 +73,39 @@ h1, h2 {
     background: url(../css/images/fingers.jpg) no-repeat center center;
 }
 
+/* footer */
+
+footer {
+    height: 150px;
+}
+
+.contact-details {
+    text-align: left;
+    float: left;
+    font-size: 80%;
+    font-family: Roboto, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #203354;
+    padding: 10px;
+    width: 50%;
+}
+
+.times {
+    text-align: left;
+    float: right;
+    font-size: 80%;
+    font-family: Roboto, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #203354;
+    padding: 10px;
+    width: -100%;
+}
+
+.social {
+    text-align: justify;
+    float: none;
+    font-size: 400%;
+    padding: none;
+}
