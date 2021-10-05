@@ -73,6 +73,20 @@ h2 {
     background: url(../css/images/fingers.jpg) no-repeat center center;
 }
 
+/* Your Journey image */
+
+#journey-outer {
+    height: 525px;
+    width: 100%;
+    overflow: hidden;
+}
+
+#journey-page {
+    height: 525px;
+    width: 100%;
+    background: url(../css/images/fingerpaint.jpg) no-repeat center center;
+}
+
 /* footer */
 
 footer {
@@ -108,4 +122,15 @@ footer {
     float: none;
     font-size: 400%;
     padding: none;
+}
+
+/* text styling*/
+
+p {
+    text-align: center;
+    float: none;
+    font-size: 100%;
+    font-family: Noto Sans JP, sans-serif;
+    color: #000080;
+    padding: 15px;
 }
