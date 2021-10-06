@@ -72,7 +72,7 @@ h2 {
     object-fit: cover;
     height: 650px;
     width: 100%;
-    background: url(../css/images/homepage.jpeg) no-repeat center center;
+    background: url(../css/images/fingers2.jpg) no-repeat center center;
  
 }
 
@@ -83,13 +83,29 @@ h2 {
     height: 650px;
     width: 100%;
     overflow: hidden;
-    position: relative;
+    display: block;
 }
 
 #journey-page {
     height: 650px;
     width: 100%;
     background: url(../css/images/yourjourney.jpeg) no-repeat center center;
+}
+
+/* contact page image */
+
+#contact-outer {
+    height: 650px;
+    width: 100%;
+    overflow: hidden;
+    display: block;
+}
+
+#contact-page {
+    height: 650px;
+    width: 100%;
+    background: url(../css/images/homepage.jpeg) no-repeat center top;
+ 
 }
 
 /* footer */
@@ -111,7 +127,7 @@ footer {
 }
 
 .times {
-    text-align: left;
+    text-align: right;
     float: right;
     font-size: 80%;
     font-family: Roboto, sans-serif;
@@ -146,10 +162,15 @@ p {
     #logo {
         width: 100%;
         font-size: 110%;
+        clear: none;
     }
 
     #menu {
-        width: 100%;
+        clear: left;
+        float: left;
+        margin-left: 10px;
+        margin-bottom: 20px;
+        line-height: 25px;
         font-size: 80%;
     }
 
@@ -161,6 +182,16 @@ p {
     #journey-outer {
         height: 325px;
         width: 100%; 
+    }
+
+    #contact-outer {
+        height: 325px;
+        width: 100%; 
+    }
+
+    footer {
+        width: 100%;
+        font-size: 75%;
     }
 
 }
