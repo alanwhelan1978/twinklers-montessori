@@ -7,7 +7,7 @@
 }
 
 body {
-    font-family: Noto Sans JP, sans-serif;
+    font-family: Noto-Sans-JP, sans-serif;
     font-weight: 400;
     color: #000080;
     background-color: #89CFF0;
@@ -123,7 +123,7 @@ footer {
     letter-spacing: 2px;
     color: #203354;
     padding: 10px;
-    width: 50%;
+    width: 33%;
 }
 
 .times {
@@ -135,14 +135,14 @@ footer {
     letter-spacing: 2px;
     color: #203354;
     padding: 10px;
-    width: -100%;
+    width: 33%;
 }
 
 .social {
-    text-align: justify;
+    text-align: center;
     float: none;
     font-size: 400%;
-    padding: none;
+    padding: 1px;
 }
 
 /* text styling*/
@@ -151,7 +151,7 @@ p {
     text-align: center;
     float: none;
     font-size: 100%;
-    font-family: Noto Sans JP, sans-serif;
+    font-family: Noto-Sans-JP, sans-serif;
     color: #000080;
     padding: 15px;
 }
