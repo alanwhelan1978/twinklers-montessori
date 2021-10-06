@@ -62,29 +62,34 @@ h2 {
 /* Home page image */
 
 #home-outer {
-    height: 525px;
+    height: 650px;
     width: 100%;
     overflow: hidden;
+    display: block;
 }
 
 #home-page {
-    height: 525px;
+    object-fit: cover;
+    height: 650px;
     width: 100%;
-    background: url(../css/images/fingers.jpg) no-repeat center center;
+    background: url(../css/images/homepage.jpeg) no-repeat center center;
+ 
 }
 
 /* Your Journey image */
 
 #journey-outer {
-    height: 525px;
+    object-fit: fill;
+    height: 650px;
     width: 100%;
     overflow: hidden;
+    position: relative;
 }
 
 #journey-page {
-    height: 525px;
+    height: 650px;
     width: 100%;
-    background: url(../css/images/fingerpaint.jpg) no-repeat center center;
+    background: url(../css/images/yourjourney.jpeg) no-repeat center center;
 }
 
 /* footer */
@@ -133,4 +138,29 @@ p {
     font-family: Noto Sans JP, sans-serif;
     color: #000080;
     padding: 15px;
+}
+
+/* Mobile responsiveness*/
+
+@media screen and (max-width: 950px) {
+    #logo {
+        width: 100%;
+        font-size: 110%;
+    }
+
+    #menu {
+        width: 100%;
+        font-size: 80%;
+    }
+
+    #home-outer {
+        height: 325px;
+        width: 100%; 
+    }
+
+    #journey-outer {
+        height: 325px;
+        width: 100%; 
+    }
+
 }
