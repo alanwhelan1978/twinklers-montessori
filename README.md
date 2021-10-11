@@ -106,3 +106,32 @@ Image Links -
 * [Contact us]()
 
 ***
+
+## Features
+
+#### Universal Features Across the Site
+
+###### Logo and Navigation Bar
+The Navigation Bar is at the top of the right of webpage. The nav links all underline when hovered over. The nav links direct the user to the correct page of the website. When the logo is clicked on it will take the user to the home page. When on smaller devices the nav goes underneath the logo and it is centred
+
+
+###### Responsiveness
+
+The page is scaled up and down for different screen resolutions to help the content stay neat. This has been done using media queries.
+
+
+###### Accessibility
+
+All images and navigations have an alt attributes or aria-label. This is to make the site easier to use for people with visual impairments by allowing them to navigate the site easily. There is high contrast used throughout the design. Header elements have been used in sequence so that the site makes semantic sense to screen readers. Links are consistent when hovered over. I have also set the font to rem so that if someone has their font settings higher for visibility the font size will increase accordingly.
+
+
+###### Footer 
+
+The footer is split into 3 sections:. “Opening Hours”, “Contact Info” and “Social”. These scale up and down depending on device size.
+ 
+
+##### Meta data
+
+
+I have included descriptions, author, and keywords into the head element to increase traffic to the website. I have also labelled each page differently so that if the user has multiple tabs open it is easy to recognise each tab.
+
