@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP&family=Roboto&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP&family=Roboto&display=swap');
 
 * {
     margin: 0;
@@ -10,7 +10,6 @@ body {
     font-family: Noto-Sans-JP, sans-serif;
     font-weight: 400;
     color: #203354
-    background-color: #F0F8FF;
 }
 
 /* headings and logo */
@@ -244,7 +243,7 @@ p {
         background: url(../css/images/fingers2.jpg) left center;
 }
 
-@media screen and (max-width 2000px) {
+@media screen and (max-width: 2000 px) {
     body {
         max-width: 2000px;
         margin-left: auto;
@@ -283,3 +282,5 @@ p {
     background-color: #52379c;
     color: #080101;
     display: block;
+}
+}
