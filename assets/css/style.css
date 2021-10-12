@@ -215,7 +215,64 @@ p {
 
 /* Mobile responsiveness*/
 
-@media screen and (max-width: 950px) {
+@media screen and (max-width: 1280px) {
+    #logo {
+        width: 100%;
+        font-size: 1.1rem;
+        clear: none;
+        text-align: center;
+    }
+
+    #menu {
+        clear: left;
+        float: right;
+        margin-left: 10px;
+        margin-bottom: 20px;
+        line-height: 25px;
+        font-size: .8rem;
+        text-align: center;
+    }
+
+    #home-outer {
+        height: 325px;
+        width: 100%; 
+    }
+
+    #journey-outer {
+        height: 325px;
+        width: 100%; 
+    }
+
+    #contact-outer {
+        height: 325px;
+        width: 100%; 
+    }
+
+    footer {
+        width: 100%;
+        font-size: .75rem;
+    }
+
+    .contact-us {
+        margin: 1px 1% 0 1px;
+        max-width: 400px;
+        left: 10%;
+        padding: 10px;
+        max-height: 450px;
+        width: 100%;
+    }
+
+    iframe {
+        margin: 1px 1% 0 10px;
+        max-width: 400px;
+        max-height: 450px;
+        position: relative;
+        width: auto;
+    }
+
+}
+
+@media screen and (max-width: 1024px) {
     #logo {
         width: 100%;
         font-size: 1.1rem;
@@ -251,6 +308,23 @@ p {
     footer {
         width: 100%;
         font-size: .75rem;
+    }
+
+    .contact-us {
+        margin: 1px 1% 0 1px;
+        max-width: 400px;
+        left: 10%;
+        padding: 10px;
+        max-height: 450px;
+        width: 100%;
+    }
+
+    iframe {
+        margin: 1px 1% 0 10px;
+        max-width: 400px;
+        max-height: 450px;
+        position: relative;
+        width: auto;
     }
 
 }
@@ -481,6 +555,4 @@ p {
         margin-left: auto;
         margin-right: auto;
        }
-}
-
-}
+    }
