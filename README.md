@@ -87,11 +87,6 @@ I made all my call to actions as easy to see as possible.
 
 Due to the business being a school I had no images to use from the company as parental permission would of had to os been given. I looked for simple and eye-catching designs that showcased the fun behind learning.
 
-Image Links - 
-* [Home](/workspace/twinklers-montessori/readme-images/home 1.JPG)
-* [Your Journey]()
-* [Contact us]()
-
 ***
 
 ## Features
