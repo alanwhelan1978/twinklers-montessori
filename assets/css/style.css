@@ -84,7 +84,7 @@
      object-fit: cover;
      height: 650px;
      width: 100%;
-     background: url(../css/images/fingers2.jpg) no-repeat center center;
+     background: url(/assets/images/fingers2.jpg) no-repeat center center;
 
  }
 
@@ -101,7 +101,7 @@
  #journey-page {
      height: 650px;
      width: 100%;
-     background: url(../css/images/yourjourney.jpeg) no-repeat center center;
+     background: url(/assets/images/yourjourney.jpeg) no-repeat center center;
  }
 
  /* contact page image */
@@ -116,7 +116,7 @@
  #contact-page {
      height: 650px;
      width: 100%;
-     background: url(../css/images/homepage.jpeg) no-repeat center top;
+     background: url(/assets/images/homepage.jpeg) no-repeat center top;
 
  }
 
