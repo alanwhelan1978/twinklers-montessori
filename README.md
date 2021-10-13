@@ -10,10 +10,10 @@
 
 ## About  
 
-Twinklers Montessori is a bwebsite created for my MS1 project with Code Institute.
+Twinklers Montessori is a website created for my PP1 project with Code Institute.
  
    
-Twinklers Montessori is a business dedicated to the education of children aged from 2.5 years to school going age.
+Twinklers Montessori is a business dedicated to the education of children aged from 2.5 years to school going age. This is owned by my sister in-law and the website will be used for the business. The client had full input in the design.
 
 Twinklers Montessori needs to have a website to tell users a little bit about the business, show potential clients what services they offer.
 ***
@@ -80,7 +80,7 @@ The website will consist of 3 separate pages
 
 #### Colour
 
-I have used blues as my main colour theme for the website. Light blue for background and dark blue for text. This will help with Accessibility for visually impaired users.
+I have used blues as my main colour theme for the website. These are colors that the client selected as they use them in their other marketing collateral. Light blue for background and dark blue for text. This will help with Accessibility for visually impaired users.
 
 #### Typography 
 
