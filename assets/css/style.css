@@ -1,5 +1,13 @@
  @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP&family=Roboto&display=swap');
+ 
+ /* use of CSS custom properties */
 
+:root {
+    --content-height:650px;
+    --content-width:100%;
+    --font-family-body: Noto-Sans-JP, sans-serif;
+    --font-family-other: Roboto, sans-serif;
+}
  * {
      margin: 0;
      padding: 0;
@@ -7,7 +15,7 @@
  }
 
  body {
-     font-family: Noto-Sans-JP, sans-serif;
+     font-family: var(--font-family-body);
      background-color: #F0FFF8;
      font-weight: 400;
      color: #203354;
@@ -19,14 +27,14 @@
  /* headings and logo */
 
  h1 {
-     font-family: Roboto, sans-serif;
+     font-family: var(--font-family-other);
      text-transform: uppercase;
      letter-spacing: 2px;
      color: #203354;
  }
 
  h2 {
-     font-family: Roboto, sans-serif;
+     font-family: var(--font-family-other);
      text-transform: uppercase;
      letter-spacing: 2px;
      color: #203354;
@@ -74,16 +82,16 @@
  /* Home page image */
 
  #home-outer {
-     height: 650px;
-     width: 100%;
+     height: var(--content-height);
+     width: var(--content-width);
      overflow: hidden;
      display: block;
  }
 
  #home-page {
      object-fit: cover;
-     height: 650px;
-     width: 100%;
+     height: var(--content-height);
+     width: var(--content-width);
      background: url(/assets/images/fingers2.jpg) no-repeat center center;
 
  }
@@ -92,30 +100,30 @@
 
  #journey-outer {
      object-fit: fill;
-     height: 650px;
-     width: 100%;
+     height: var(--content-height);
+     width: var(--content-width);
      overflow: hidden;
      display: block;
  }
 
  #journey-page {
-     height: 650px;
-     width: 100%;
+     height: var(--content-height);
+     width: var(--content-width);
      background: url(/assets/images/yourjourney.jpeg) no-repeat center center;
  }
 
  /* contact page image */
 
  #contact-outer {
-     height: 650px;
-     width: 100%;
+     height: var(--content-height);
+     width: var(--content-width);
      overflow: hidden;
      display: block;
  }
 
  #contact-page {
-     height: 650px;
-     width: 100%;
+     height: var(--content-height);
+     width: var(--content-width);
      background: url(/assets/images/homepage.jpeg) no-repeat center top;
 
  }
@@ -124,13 +132,14 @@
 
  footer {
      height: 150px;
+     padding: 100px;
  }
 
  .contact-details {
      text-align: left;
      float: left;
      font-size: .8rem;
-     font-family: Roboto, sans-serif;
+     font-family: var(--font-family-other);
      text-transform: uppercase;
      letter-spacing: 2px;
      color: #203354;
@@ -142,7 +151,7 @@
      text-align: right;
      float: right;
      font-size: .8rem;
-     font-family: Roboto, sans-serif;
+     font-family: var(--font-family-other);
      text-transform: uppercase;
      letter-spacing: 2px;
      color: #203354;
@@ -175,7 +184,7 @@
      max-width: 400px;
      left: 10%;
      padding: 10px;
-     font-family: Noto-Sans-JP, sans-serif;
+     font-family: var(--font-family-body);
      max-height: 450px;
      width: 50%;
  }
@@ -189,7 +198,7 @@
      border: 1px solid #000080;
      border-radius: 2px;
      overflow: hidden;
-     font-family: Noto-Sans-JP, sans-serif;
+     font-family: var(--font-family-body);
  }
 
  .button-style {
@@ -201,7 +210,7 @@
      background-color: #01579b;
      color: #ffffff;
      display: block;
-     font-family: Noto-Sans-JP, sans-serif;
+     font-family: var(--font-family-body);
  }
 
  /* text styling*/
@@ -210,7 +219,7 @@
      text-align: justify;
      float: none;
      font-size: 1rem;
-     font-family: Noto-Sans-JP, sans-serif;
+     font-family: var(--font-family-body);
      color: #203354;
      padding: 15px;
      line-height: 1.5rem;
@@ -438,7 +447,7 @@
          letter-spacing: 1px;
      }
 
-     é .contact-us {
+        .contact-us {
          margin: 1px 1% 0 1px;
          max-width: 400px;
          left: 10%;
