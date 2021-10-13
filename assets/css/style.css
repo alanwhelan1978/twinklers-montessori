@@ -157,7 +157,7 @@
  /* form contact page */
 
  iframe {
-     margin: 1px 1% 0 300px;
+     margin: 1px 1% 0 80px;
      max-width: 400px;
      max-height: 450px;
      position: relative;
@@ -165,7 +165,7 @@
  }
 
  .contact-us {
-     margin: 1px 1% 0 300px;
+     margin: 1px 10% 0 300px;
      float: right;
      color: #fff;
      background-color: #0288d1;

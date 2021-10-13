@@ -18,19 +18,6 @@ Twinklers Montessori is a business dedicated to the education of children aged f
 Twinklers Montessori needs to have a website to tell users a little bit about the business, show potential clients what services they offer.
 ***
 
-## Index – Table of Contents
-
-* [User Experience (UX)](#user-experience) 
-* [Features](#features)
-* [Designs](#designs)
-* [Technologies Used](#technologies-used)
-* [Testing](#testing)
-* [Known Bugs](#known-bugs)
-* [Deployment](#deployment)
-* [Acknowledgements](#credit)
-
-*** 
-
 ## User Experience (UX)
 
 ## Strategy
@@ -101,7 +88,7 @@ I made all my call to actions as easy to see as possible.
 Due to the business being a school I had no images to use from the company as parental permission would of had to os been given. I looked for simple and eye-catching designs that showcased the fun behind learning.
 
 Image Links - 
-* [Home]()
+* [Home](/workspace/twinklers-montessori/readme-images/home 1.JPG)
 * [Your Journey]()
 * [Contact us]()
 
