@@ -1,561 +1,639 @@
  @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP&family=Roboto&display=swap');
 
-* {
-    margin: 0;
-    padding: 0;
-    border: none;
-}
-
-body {
-    font-family: Noto-Sans-JP, sans-serif;
-    background-color: #F0FFF8;
-    font-weight: 400;
-    color: #203354
-}
-
-/* headings and logo */
-
-h1 {
-    font-family: Roboto, sans-serif;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    color: #203354;
-}
-
-h2 {
-    font-family: Roboto, sans-serif;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    color: #203354;
-    float: inline-start;
-    text-align: center;
-    padding-top: 2rem;
-}
-
-#logo {
-    float: left;
-    font-size: 2.5rem;
-}
-
-/* navigation links*/
-
-#menu {
-    font-size: 1.1rem;
-    letter-spacing: 2px;
-}
-
-#menu,
-#logo {
-    line-height: 75px;
-}
-
-#menu li {
-    float: right;
-    list-style: none;
-    margin-right: 30px;
-}
-
-#menu a {
-    text-decoration: none;
-    color: inherit;
-}
-
-#menu a:hover {
-    border-bottom: 1px solid #203354;
-}
-
-.active {
-    border-bottom: 1px solid #203354;
-}
-
-/* Home page image */
-
-#home-outer {
-    height: 650px;
-    width: 100%;
-    overflow: hidden;
-    display: block;
-}
-
-#home-page {
-    object-fit: cover;
-    height: 650px;
-    width: 100%;
-    background: url(../css/images/fingers2.jpg) no-repeat center center;
- 
-}
-
-/* Your Journey image */
-
-#journey-outer {
-    object-fit: fill;
-    height: 650px;
-    width: 100%;
-    overflow: hidden;
-    display: block;
-}
-
-#journey-page {
-    height: 650px;
-    width: 100%;
-    background: url(../css/images/yourjourney.jpeg) no-repeat center center;
-}
-
-/* contact page image */
-
-#contact-outer {
-    height: 650px;
-    width: 100%;
-    overflow: hidden;
-    display: block;
-}
-
-#contact-page {
-    height: 650px;
-    width: 100%;
-    background: url(../css/images/homepage.jpeg) no-repeat center top;
- 
-}
-
-/* footer */
-
-footer {
-    height: 150px;
-}
-
-.contact-details {
-    text-align: left;
-    float: left;
-    font-size: .8rem;
-    font-family: Roboto, sans-serif;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    color: #203354;
-    padding: 10px;
-    width: 33%;
-}
-
-.times {
-    text-align: right;
-    float: right;
-    font-size: .8rem;
-    font-family: Roboto, sans-serif;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    color: #203354;
-    padding: 10px;
-    width: 33%;
-}
-
-.social {
-    text-align: center;
-    float: none;
-    font-size: 4rem;
-    padding: 1px;
-}
-
-/* form contact page */
-
-iframe {
-    margin: 1px 1% 0 300px;
-    max-width: 400px;
-    max-height: 450px;
-    position: relative;
-    width: 50%;
-}
-
-.contact-us {
-    margin: 1px 1% 0 300px;
-    float: right;
-    color: #fff;
-    background-color:#0288d1;
-    max-width: 400px;
-    left: 10%;
-    padding: 10px;
-    font-family:Noto-Sans-JP, sans-serif;
-    max-height: 450px;
-    width: 50%;
-}
-
-.text-input {
-    background: transparent;
-    color: #000080;
-    width: 100%;
-    height: 20px;
-    margin: 5px 0 20px 0;
-    border: 1px solid #000080;
-    border-radius: 2px;
-    overflow: hidden;
-    font-family:Noto-Sans-JP, sans-serif;
-}
-
-.button-style {
-    margin-top: 5px;
-    border-radius: 2px;
-    padding: 15px 32px 15px 32px;
-    text-align: center;
-    font-size: 1rem;
-    background-color:#01579b;
-    color: #ffffff  ;
-    display: block;
-    font-family:Noto-Sans-JP, sans-serif;
-}
-
-/* text styling*/
-
-p {
-    text-align: justify;
-    float: none;
-    font-size: 1rem;
-    font-family: Noto-Sans-JP, sans-serif;
-    color:#203354;
-    padding: 15px;
-    line-height: 1.5rem;
-}
-
-/* Mobile responsiveness*/
-
-@media screen and (max-width: 2000px) {
-    body {
-        max-width: 2000px;
-        margin-left: auto;
-        margin-right: auto;
-    }
-       }
-
-@media screen and (max-width: 1280px) {
-    #logo {
-        width: 100%;
-        font-size: 1.1rem;
-        clear: none;
-        text-align: center;
-    }
-
-    #menu {
-        clear: left;
-        float: right;
-        margin-left: 10px;
-        margin-bottom: 20px;
-        line-height: 25px;
-        font-size: .8rem;
-        text-align: center;
-    }
-
-    #home-outer {
-        height: 325px;
-        width: 100%; 
-    }
-
-    #journey-outer {
-        height: 325px;
-        width: 100%; 
-    }
-
-    #contact-outer {
-        height: 325px;
-        width: 100%; 
-    }
-
-    footer {
-        width: 100%;
-        font-size: .75rem;
-    }
-
-    .contact-us {
-        margin: 1px 1% 0 1px;
-        max-width: 400px;
-        left: 10%;
-        padding: 10px;
-        max-height: 450px;
-        width: 100%;
-    }
-
-    iframe {
-        margin: 1px 1% 0 10px;
-        max-width: 400px;
-        max-height: 450px;
-        position: relative;
-        width: auto;
-    }
-
-}
-
-@media screen and (max-width: 1024px) {
-    #logo {
-        width: 100%;
-        font-size: 1.1rem;
-        clear: none;
-        text-align: center;
-    }
-
-    #menu {
-        clear: left;
-        float: left;
-        margin-left: 10px;
-        margin-bottom: 20px;
-        line-height: 25px;
-        font-size: .8rem;
-        text-align: center;
-    }
-
-    #home-outer {
-        height: 325px;
-        width: 100%; 
-    }
-
-    #journey-outer {
-        height: 325px;
-        width: 100%; 
-    }
-
-    #contact-outer {
-        height: 325px;
-        width: 100%; 
-    }
-
-    footer {
-        width: 100%;
-        font-size: .75rem;
-    }
-
-    .contact-us {
-        margin: 1px 1% 0 1px;
-        max-width: 400px;
-        left: 10%;
-        padding: 10px;
-        max-height: 450px;
-        width: 100%;
-    }
-
-    iframe {
-        margin: 1px 1% 0 10px;
-        max-width: 400px;
-        max-height: 450px;
-        position: relative;
-        width: auto;
-    }
-
-}
-
-@media screen and (max-width: 768px) {
-    #logo {
-        text-align: center;
-        padding-left: 20%;
-        width: 60%;
-        font-size: .7rem;
-        line-height: 25px;
-    }
-
-    #menu {
-        text-align: center;
-        font-size: .8rem;
-        clear: left;
-        float: left;
-        line-height: 15px;
-    }
-
-    #menu li {
-        margin-right: 10px;
-        padding-left: 10px;
-    }
-
-    body {
-        text-align: justify;
-    }
-
-    footer {
-        width: 100%;
-        font-size: .6rem;
-    }
-
-    #home-page {
-        object-fit: cover;
-        height: 650px;
-        width: 100%;
-        background: url(../css/images/fingers2.jpg) bottom center;
-}
-
-    .contact-us {
-        margin: 1px 1% 0 1px;
-        max-width: 400px;
-        left: 10%;
-        padding: 10px;
-        max-height: 450px;
-        width: 100%;
-    }
-
-    iframe {
-        margin: 1px 1% 0 1px;
-        max-width: 400px;
-        max-height: 450px;
-        position: relative;
-        width: auto;
-    }
-}
-
-@media screen and (max-width: 444px) {
-    #logo {
-        text-align: center;
-        padding-left: 20%;
-        width: 60%;
-        font-size: .7rem;
-        line-height: 25px;
-    }
-
-    #menu {
-        text-align: center;
-        font-size: .8rem;
-        clear: left;
-        float: left;
-        line-height: 15px;
-    }
-
-    #menu li {
-        margin-right: 10px;
-        padding-left: 10px;
-    }
-
-    body {
-        text-align: justify;
-    }
-
-    footer {
-        width: 100%;
-        font-size: .6rem;
-    }
-
-    #home-page {
-        object-fit: cover;
-        height: 650px;
-        width: 100%;
-        background: url(../css/images/fingers2.jpg) bottom center;
-}
-
-    .contact-us {
-        margin: 1px 1% 0 1px;
-        max-width: 400px;
-        left: 10%;
-        padding: 10px;
-        max-height: 450px;
-        width: 100%;
-    }
-
-    iframe {
-        margin: 1px 1% 0 1px;
-        max-width: 400px;
-        max-height: 450px;
-        position: relative;
-        width: 100%;
-    }
-}
-
-@media screen and (max-width: 375px) {
-    #logo {
-        text-align: center;
-        padding-left: 20%;
-        width: 60%;
-        font-size: .7rem;
-        line-height: 25px;
-    }
-
-    #menu {
-        text-align: center;
-        font-size: .8rem;
-        clear: left;
-        float: left;
-        line-height: 15px;
-    }
-
-    #menu li {
-        margin-right: 10px;
-        padding-left: 10px;
-    }
-
-    body {
-        text-align: justify;
-    }
-
-    footer {
-        width: 100%;
-        font-size: .6rem;
-    }
-
-    #home-page {
-        object-fit: cover;
-        height: 650px;
-        width: 100%;
-        background: url(../css/images/fingers2.jpg) bottom center;
-}
-
-    .contact-us {
-        margin: 1px 1% 0 1px;
-        max-width: 400px;
-        left: 10%;
-        padding: 10px;
-        max-height: 450px;
-        width: 100%;
-    }
-
-    iframe {
-        margin: 1px 1% 0 1px;
-        max-width: 400px;
-        max-height: 450px;
-        position: relative;
-        width: 100%;
-    }
-}
-
-    @media screen and (max-width: 320px) {
-        #logo {
-            text-align: center;
-            padding-left: 20%;
-            width: 60%;
-            font-size: .7rem;
-            line-height: 25px;
-        }
-    
-        #menu {
-            text-align: center;
-            font-size: .8rem;
-            clear: left;
-            float: left;
-            line-height: 15px;
-        }
-    
-        #menu li {
-            margin-right: 10px;
-            padding-left: 10px;
-        }
-    
-        body {
-            text-align: justify;
-        }
-    
-        footer {
-            width: 100%;
-            font-size: .6rem;
-        }
-    
-        #home-page {
-            object-fit: cover;
-            height: 650px;
-            width: 100%;
-            background: url(../css/images/fingers2.jpg) bottom center;
-    }
-    
-        .contact-us {
-            margin: 1px 1% 0 15px;
-            max-width: 400px;
-            left: 10%;
-            padding: 10px;
-            max-height: 450px;
-            width: auto;
-        }
-    
-        iframe {
-            margin: 1px 1% 0 10px;
-            max-width: 400px;
-            max-height: 450px;
-            width: auto;
-        }
-    }
+ * {
+     margin: 0;
+     padding: 0;
+     border: none;
+ }
+
+ body {
+     font-family: Noto-Sans-JP, sans-serif;
+     background-color: #F0FFF8;
+     font-weight: 400;
+     color: #203354
+ }
+
+ /* headings and logo */
+
+ h1 {
+     font-family: Roboto, sans-serif;
+     text-transform: uppercase;
+     letter-spacing: 2px;
+     color: #203354;
+ }
+
+ h2 {
+     font-family: Roboto, sans-serif;
+     text-transform: uppercase;
+     letter-spacing: 2px;
+     color: #203354;
+     float: inline-start;
+     text-align: center;
+     padding-top: 2rem;
+ }
+
+ #logo {
+     float: left;
+     font-size: 2.5rem;
+ }
+
+ /* navigation links*/
+
+ #menu {
+     font-size: 1.1rem;
+     letter-spacing: 2px;
+ }
+
+ #menu,
+ #logo {
+     line-height: 75px;
+ }
+
+ #menu li {
+     float: right;
+     list-style: none;
+     margin-right: 30px;
+ }
+
+ #menu a {
+     text-decoration: none;
+     color: inherit;
+ }
+
+ #menu a:hover {
+     border-bottom: 1px solid #203354;
+ }
+
+ .active {
+     border-bottom: 1px solid #203354;
+ }
+
+ /* Home page image */
+
+ #home-outer {
+     height: 650px;
+     width: 100%;
+     overflow: hidden;
+     display: block;
+ }
+
+ #home-page {
+     object-fit: cover;
+     height: 650px;
+     width: 100%;
+     background: url(../css/images/fingers2.jpg) no-repeat center center;
+
+ }
+
+ /* Your Journey image */
+
+ #journey-outer {
+     object-fit: fill;
+     height: 650px;
+     width: 100%;
+     overflow: hidden;
+     display: block;
+ }
+
+ #journey-page {
+     height: 650px;
+     width: 100%;
+     background: url(../css/images/yourjourney.jpeg) no-repeat center center;
+ }
+
+ /* contact page image */
+
+ #contact-outer {
+     height: 650px;
+     width: 100%;
+     overflow: hidden;
+     display: block;
+ }
+
+ #contact-page {
+     height: 650px;
+     width: 100%;
+     background: url(../css/images/homepage.jpeg) no-repeat center top;
+
+ }
+
+ /* footer */
+
+ footer {
+     height: 150px;
+ }
+
+ .contact-details {
+     text-align: left;
+     float: left;
+     font-size: .8rem;
+     font-family: Roboto, sans-serif;
+     text-transform: uppercase;
+     letter-spacing: 2px;
+     color: #203354;
+     padding: 10px;
+     width: 33%;
+ }
+
+ .times {
+     text-align: right;
+     float: right;
+     font-size: .8rem;
+     font-family: Roboto, sans-serif;
+     text-transform: uppercase;
+     letter-spacing: 2px;
+     color: #203354;
+     padding: 10px;
+     width: 33%;
+ }
+
+ .social {
+     text-align: center;
+     float: none;
+     font-size: 4rem;
+     padding: 1px;
+ }
+
+ /* form contact page */
+
+ iframe {
+     margin: 1px 1% 0 300px;
+     max-width: 400px;
+     max-height: 450px;
+     position: relative;
+     width: 50%;
+ }
+
+ .contact-us {
+     margin: 1px 1% 0 300px;
+     float: right;
+     color: #fff;
+     background-color: #0288d1;
+     max-width: 400px;
+     left: 10%;
+     padding: 10px;
+     font-family: Noto-Sans-JP, sans-serif;
+     max-height: 450px;
+     width: 50%;
+ }
+
+ .text-input {
+     background: transparent;
+     color: #000080;
+     width: 100%;
+     height: 20px;
+     margin: 5px 0 20px 0;
+     border: 1px solid #000080;
+     border-radius: 2px;
+     overflow: hidden;
+     font-family: Noto-Sans-JP, sans-serif;
+ }
+
+ .button-style {
+     margin-top: 5px;
+     border-radius: 2px;
+     padding: 15px 32px 15px 32px;
+     text-align: center;
+     font-size: 1rem;
+     background-color: #01579b;
+     color: #ffffff;
+     display: block;
+     font-family: Noto-Sans-JP, sans-serif;
+ }
+
+ /* text styling*/
+
+ p {
+     text-align: justify;
+     float: none;
+     font-size: 1rem;
+     font-family: Noto-Sans-JP, sans-serif;
+     color: #203354;
+     padding: 15px;
+     line-height: 1.5rem;
+ }
+
+ /* Mobile responsiveness*/
+
+ @media screen and (max-width: 2000px) {
+     body {
+         max-width: 2000px;
+         margin-left: auto;
+         margin-right: auto;
+     }
+ }
+
+ @media screen and (max-width: 1366px) {
+     #logo {
+         width: 100%;
+         font-size: 1.1rem;
+         clear: none;
+         text-align: center;
+     }
+
+     #menu {
+         clear: left;
+         float: right;
+         margin-left: 10px;
+         margin-bottom: 20px;
+         line-height: 25px;
+         font-size: .8rem;
+         text-align: center;
+     }
+
+     #home-outer {
+         height: 325px;
+         width: 100%;
+     }
+
+     #journey-outer {
+         height: 325px;
+         width: 100%;
+     }
+
+     #contact-outer {
+         height: 325px;
+         width: 100%;
+     }
+
+     footer {
+         width: 100%;
+         font-size: .75rem;
+     }
+
+     .contact-us {
+         margin: 1px 1% 0 100px;
+         max-width: 400px;
+         left: 10%;
+         padding: 10px;
+         max-height: 450px;
+         width: 100%;
+     }
+
+     iframe {
+         margin: 1px 10% 0 5px;
+         max-width: 400px;
+         max-height: 450px;
+         position: relative;
+         width: 100%;
+     }
+
+ }
+
+ @media screen and (max-width: 1280px) {
+     #logo {
+         width: 100%;
+         font-size: 1.1rem;
+         clear: none;
+         text-align: center;
+     }
+
+     #menu {
+         clear: left;
+         float: right;
+         margin-left: 10px;
+         margin-bottom: 20px;
+         line-height: 25px;
+         font-size: .8rem;
+         text-align: center;
+     }
+
+     #home-outer {
+         height: 325px;
+         width: 100%;
+     }
+
+     #journey-outer {
+         height: 325px;
+         width: 100%;
+     }
+
+     #contact-outer {
+         height: 325px;
+         width: 100%;
+     }
+
+     footer {
+         width: 100%;
+         font-size: .75rem;
+     }
+
+     .contact-us {
+         margin: 1px 1% 0 1px;
+         max-width: 400px;
+         left: 10%;
+         padding: 10px;
+         max-height: 450px;
+         width: 100%;
+     }
+
+     iframe {
+         margin: 1px 1% 0 10px;
+         max-width: 400px;
+         max-height: 450px;
+         position: relative;
+         width: auto;
+     }
+
+ }
+
+ @media screen and (max-width: 1024px) {
+     #logo {
+         width: 100%;
+         font-size: 1.1rem;
+         clear: none;
+         text-align: center;
+     }
+
+     #menu {
+         clear: left;
+         float: left;
+         margin-left: 10px;
+         margin-bottom: 20px;
+         line-height: 25px;
+         font-size: .8rem;
+         text-align: center;
+     }
+
+     #home-outer {
+         height: 325px;
+         width: 100%;
+     }
+
+     #journey-outer {
+         height: 325px;
+         width: 100%;
+     }
+
+     #contact-outer {
+         height: 325px;
+         width: 100%;
+     }
+
+     footer {
+         width: 100%;
+         font-size: .75rem;
+     }
+
+     .times {
+         letter-spacing: 1px;
+     }
+
+     .contact-us {
+         margin: 1px 1% 0 1px;
+         max-width: 400px;
+         left: 10%;
+         padding: 10px;
+         max-height: 450px;
+         width: 100%;
+     }
+
+     iframe {
+         margin: 1px 1% 0 10px;
+         max-width: 400px;
+         max-height: 450px;
+         position: relative;
+         width: auto;
+     }
+
+ }
+
+ @media screen and (max-width: 768px) {
+     #logo {
+         text-align: center;
+         padding-left: 20%;
+         width: 60%;
+         font-size: .7rem;
+         line-height: 25px;
+     }
+
+     #menu {
+         text-align: center;
+         font-size: .8rem;
+         clear: left;
+         float: left;
+         line-height: 15px;
+     }
+
+     #menu li {
+         margin-right: 10px;
+         padding-left: 10px;
+     }
+
+     body {
+         text-align: justify;
+     }
+
+     footer {
+         width: 100%;
+         font-size: .6rem;
+     }
+
+     #home-page {
+         object-fit: cover;
+         height: 650px;
+         width: 100%;
+         background: url(../css/images/fingers2.jpg) bottom center;
+     }
+
+     .times {
+         letter-spacing: 1px;
+     }
+
+     é .contact-us {
+         margin: 1px 1% 0 1px;
+         max-width: 400px;
+         left: 10%;
+         padding: 10px;
+         max-height: 450px;
+         width: 100%;
+     }
+
+     iframe {
+         margin: 1px 1% 0 1px;
+         max-width: 400px;
+         max-height: 450px;
+         position: relative;
+         width: auto;
+     }
+ }
+
+ @media screen and (max-width: 444px) {
+     #logo {
+         text-align: center;
+         padding-left: 20%;
+         width: 60%;
+         font-size: .7rem;
+         line-height: 25px;
+     }
+
+     #menu {
+         text-align: center;
+         font-size: .8rem;
+         clear: left;
+         float: left;
+         line-height: 15px;
+     }
+
+     #menu li {
+         margin-right: 10px;
+         padding-left: 10px;
+     }
+
+     body {
+         text-align: justify;
+     }
+
+     footer {
+         width: 100%;
+         font-size: .6rem;
+     }
+
+     .times {
+         letter-spacing: 1px;
+     }
+
+     #home-page {
+         object-fit: cover;
+         height: 650px;
+         width: 100%;
+         background: url(../css/images/fingers2.jpg) bottom center;
+     }
+
+     .contact-us {
+         margin: 1px 1% 0 1px;
+         max-width: 400px;
+         left: 10%;
+         padding: 10px;
+         max-height: 450px;
+         width: 100%;
+     }
+
+     iframe {
+         margin: 1px 1% 0 1px;
+         max-width: 400px;
+         max-height: 450px;
+         position: relative;
+         width: 100%;
+     }
+ }
+
+ @media screen and (max-width: 375px) {
+     #logo {
+         text-align: center;
+         padding-left: 20%;
+         width: 60%;
+         font-size: .7rem;
+         line-height: 25px;
+     }
+
+     #menu {
+         text-align: center;
+         font-size: .8rem;
+         clear: left;
+         float: left;
+         line-height: 15px;
+     }
+
+     #menu li {
+         margin-right: 10px;
+         padding-left: 10px;
+     }
+
+     body {
+         text-align: justify;
+     }
+
+     footer {
+         width: 100%;
+         font-size: .6rem;
+     }
+
+     .times {
+         letter-spacing: 1px;
+     }
+
+     #home-page {
+         object-fit: cover;
+         height: 650px;
+         width: 100%;
+         background: url(../css/images/fingers2.jpg) bottom center;
+     }
+
+     .contact-us {
+         margin: 1px 1% 0 1px;
+         max-width: 400px;
+         left: 10%;
+         padding: 10px;
+         max-height: 450px;
+         width: 100%;
+     }
+
+     iframe {
+         margin: 1px 1% 0 1px;
+         max-width: 400px;
+         max-height: 450px;
+         position: relative;
+         width: 100%;
+     }
+ }
+
+ @media screen and (max-width: 320px) {
+     #logo {
+         text-align: center;
+         padding-left: 20%;
+         width: 60%;
+         font-size: .7rem;
+         line-height: 25px;
+     }
+
+     #menu {
+         text-align: center;
+         font-size: .8rem;
+         clear: left;
+         float: left;
+         line-height: 15px;
+     }
+
+     #menu li {
+         margin-right: 10px;
+         padding-left: 10px;
+     }
+
+     body {
+         text-align: justify;
+     }
+
+     footer {
+         width: 100%;
+         font-size: .6rem;
+     }
+
+     .times {
+         letter-spacing: 1px;
+         font-size: .6rem;
+     }
+
+     #home-page {
+         object-fit: cover;
+         height: 650px;
+         width: 100%;
+         background: url(../css/images/fingers2.jpg) bottom center;
+     }
+
+     .contact-us {
+         margin: 1px 1% 0 15px;
+         max-width: 400px;
+         left: 10%;
+         padding: 10px;
+         max-height: 450px;
+         width: auto;
+     }
+
+     iframe {
+         margin: 1px 1% 0 10px;
+         max-width: 400px;
+         max-height: 450px;
+         width: auto;
+     }
+ }
