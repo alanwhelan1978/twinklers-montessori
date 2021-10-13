@@ -1,6 +1,6 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+[CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
 
-![Main Mockup]()
+[Main Mockup](/workspace/twinklers-montessori/readme-images/cpmockup.png) 
 
 [Link to Live Website](https://alanwhelan1978.github.io/twinklers-montessori/)
 
