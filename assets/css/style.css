@@ -113,6 +113,29 @@ h2 {
     background: url(/assets/images/yourjourney.jpeg) no-repeat center center;
 }
 
+img {
+    border: blue;
+    border-style: solid;
+    border-width: 2px;
+    margin: 15px;
+}
+
+.car {
+    float: left
+}
+
+.jar {
+    float: left;
+}
+
+.fing {
+    float: right;
+}
+
+.lessons {
+    float: right;
+}
+
 /* contact page image */
 
 #contact-outer {
