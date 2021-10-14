@@ -305,6 +305,7 @@ p {
         position: relative;
         width: 100%;
     }
+
     .fing {
         max-width: 250px;
     }
@@ -441,7 +442,7 @@ p {
         width: auto;
     }
 
-    
+
     .fing {
         max-width: 200px;
     }
@@ -625,7 +626,7 @@ p {
         position: relative;
         width: 100%;
     }
-    
+
     .fing {
         float: left;
     }
