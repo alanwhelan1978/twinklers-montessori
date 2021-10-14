@@ -157,10 +157,10 @@ I have included descriptions, author, and keywords into the head element to incr
     - result for contact.html
       ![HTML results contact]()
 
-- [CSS Validator](https://jigsaw.w3.org/css-validator/)
+- ![CSS Validator](https://jigsaw.w3.org/css-validator/)
 
        - result for styles.css 
-      ![CSS results]()
+- ![CSS results]()
 
 ### Browser Compatibility
 
