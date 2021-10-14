@@ -147,20 +147,21 @@ I have included descriptions, author, and keywords into the head element to incr
 ## Testing
 
 ### Validator Testing
+The error showing on the contact page is from the facebook plugin
 
 - [HTML Validator](https://validator.w3.org/)
 
     - result for index.html
-      ![HTML results index]()
+      ![HTML results index](/workspace/twinklers-montessori/readme-files/HTML-Home.PNG)
     - result for menu.html
-      ![HTML results your-journey]()
+      ![HTML results your-journey](/workspace/twinklers-montessori/readme-files/HTML-Journey.PNG)
     - result for contact.html
-      ![HTML results contact]()
+      ![HTML results contact](/workspace/twinklers-montessori/readme-files/HTML-Journey.PNG)
 
 - ![CSS Validator](https://jigsaw.w3.org/css-validator/)
 
        - result for styles.css 
-- ![CSS results]()
+- ![CSS results](/workspace/twinklers-montessori/readme-files/CSS Valid.PNG)
 
 ### Browser Compatibility
 
