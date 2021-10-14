@@ -116,6 +116,7 @@ The Navigation Bar is at the top of the right of webpage. The nav links all unde
 ###### Responsiveness
 
 The page is scaled up and down for different screen resolutions to help the content stay neat. This has been done using media queries.
+![Mockup](/readme-files/hpmockup.png)
 
 
 ###### Accessibility
