@@ -18,6 +18,7 @@ Twinklers Montessori needs to have a website to tell users a little bit about th
 
 ## User Experience (UX)
 
+
 ## Strategy
 ### User Stories  
 
@@ -50,19 +51,28 @@ Twinklers Montessori needs to have a website to tell users a little bit about th
 * To provide an easy way for new and existing clients to contact us.
 * To provide an easy to navigate website with links that work as expected.
 * To encourage clients to contact us for a more information. 
-
-*Note that not all -What the user may wants- will be implamentedat this step in the business. Additional features may be added as the scope mandate changes and the buisness grows.
+* Note that not all -What the user may wants- will be implamentedat this step in the business. Additional features may be added as the scope mandate changes and the buisness grows.
 
 ## Structure
 The website will consist of 3 separate pages
 * A home page with “About”. 
 * A “Your Journey” page with information on what your school time offers and what we do.  
 * A page with a form to contact the business. 
-***
-## Designs
 
+## Home
+[Home Page](/readme-files/home2.png)
+* The home page gives a breif indroduction to the business
+* Allows the user to navigate the rest of the site
+* Provides information to the user as to what the site is for.
 
-## Surface
+## Your Journey
+[Your Journey](/readme-files/Journey2.png)
+* The your journey page gives the user information on the Montessori experience
+* Allows the user to see more of what the business offers
+* Allows the user to navigate the rest of the site
+
+## Contact Us
+[Contact us](/re)
 
 #### Colour
 
