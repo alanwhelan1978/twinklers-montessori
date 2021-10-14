@@ -491,13 +491,6 @@ p {
         font-size: .6rem;
     }
 
-    #home-page {
-        object-fit: cover;
-        height: 650px;
-        width: 100%;
-        background:  no-repeat bottom center;
-    }
-
     .times {
         letter-spacing: 1px;
     }
@@ -553,13 +546,6 @@ p {
 
     .times {
         letter-spacing: 1px;
-    }
-
-    #home-page {
-        object-fit: cover;
-        height: 650px;
-        width: 100%;
-        background: no-repeat bottom center;
     }
 
     .contact-us {
@@ -623,13 +609,6 @@ p {
         letter-spacing: 1px;
     }
 
-    #home-page {
-        object-fit: cover;
-        height: 650px;
-        width: 100%;
-        background: no-repeat bottom center;
-    }
-
     .contact-us {
         margin: 1px 1% 0 1px;
         max-width: 400px;
@@ -691,13 +670,6 @@ p {
     .times {
         letter-spacing: 1px;
         font-size: .6rem;
-    }
-
-    #home-page {
-        object-fit: cover;
-        height: 650px;
-        width: 100%;
-        background: no bottom center;
     }
 
     .contact-us {
