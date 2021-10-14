@@ -93,7 +93,7 @@ h2 {
     object-fit: cover;
     height: var(--content-height);
     width: var(--content-width);
-    background: url(/assets/images/fingers2.jpg) no-repeat center center;
+    background: url(../images/fingers2.jpg) no-repeat center center;
 
 }
 
@@ -110,7 +110,7 @@ h2 {
 #journey-page {
     height: var(--content-height);
     width: var(--content-width);
-    background: url(/assets/images/yourjourney.jpeg) no-repeat center center;
+    background: url(../images/yourjourney.jpeg) no-repeat center center;
 }
 
 img {
@@ -148,7 +148,7 @@ img {
 #contact-page {
     height: var(--content-height);
     width: var(--content-width);
-    background: url(/assets/images/homepage.jpeg) no-repeat center top;
+    background: url(../images/homepage.jpeg) no-repeat center top;
 
 }
 
