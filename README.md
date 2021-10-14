@@ -90,6 +90,21 @@ Due to the business being a school I had no images to use from the company as pa
 
 ***
 
+### Wireframes
+
+    -   #### Main Page Mockup
+
+        ![Home](/readme-images/hpmockup.png)
+
+    -   #### Your Journey Mockup
+
+        ![Menu](/readme-images/yjmockup.png)
+
+    -   #### Contact Page Mockup
+
+        ![Contact](/readme-images/cpmockup.png)
+
+
 ## Features
 
 #### Universal Features Across the Site
@@ -117,4 +132,57 @@ The footer is split into 3 sections:. “Opening Hours”, “Contact Info” an
 
 
 I have included descriptions, author, and keywords into the head element to increase traffic to the website. I have also labelled each page differently so that if the user has multiple tabs open it is easy to recognise each tab.
+## Technologies Used
 
+### Languages Used
+
+-   [HTML5](https://en.wikipedia.org/wiki/HTML5)
+-   [CSS3](https://en.wikipedia.org/wiki/Cascading_Style_Sheets)
+
+### Frameworks, Libraries & Programs Used
+
+-   [Google Fonts:](https://fonts.google.com/) was used to import the 'Roboto' and 'Noto-Sans-JP' fonts into the style.css file which are used on all pages of the project.
+-   [Git:](https://git-scm.com/) was used for version control by utilising the Gitpod terminal to commit to Git and Push to GitHub.
+-   [GitHub:](https://github.com/) is used as the respository for the projects code after being pushed from Git.
+
+## Testing
+
+### Validator Testing
+
+- [HTML Validator](https://validator.w3.org/)
+
+    - result for index.html
+      ![HTML results index]()
+    - result for menu.html
+      ![HTML results your-journey]()
+    - result for contact.html
+      ![HTML results contact]()
+
+- [CSS Validator](https://jigsaw.w3.org/css-validator/)
+
+       - result for styles.css 
+      ![CSS results]()
+
+### Browser Compatibility
+
+- Testing has been carried out on the following browsers :
+    - Chrome
+    - Firefox
+    - Edge
+    - Safari   
+
+## Deployment
+
+### How this site was deployed
+
+- In the GitHub repository, navigate to the Settings tab, then choose Pages from the left hand menu 
+- From the source section drop-down menu, select the Master Branch
+- Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment
+- Any changes pushed to the master branch will take effect on the live project
+
+### How to clone the repository
+
+- Go to the https://github.com/alanwhelan1978/twinklers-montessori repository on GitHub 
+- Click the "Code" button to the right of the screen, click HTTPs and copy the link there
+- Open a GitBash terminal and navigate to the directory where you want to locate the clone
+- On the command line, type "git clone" then paste in the copied url and press the Enter key to begin the clone process
