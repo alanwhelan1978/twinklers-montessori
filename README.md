@@ -114,13 +114,13 @@ The Navigation Bar is at the top of the right of webpage. The nav links all unde
 ###### Responsiveness
 
 The page is scaled up and down for different screen resolutions to help the content stay neat. This has been done using media queries.
-![Mockup](/readme-files/Accessibility.png)
+![Mockup](/readme-files/Responsive.png)
 
 
 ###### Accessibility
 
 All images and navigations have an alt attributes or aria-label. This is to make the site easier to use for people with visual impairments by allowing them to navigate the site easily. There is high contrast used throughout the design. Header elements have been used in sequence so that the site makes semantic sense to screen readers. Links are consistent when hovered over. I have also set the font to rem so that if someone has their font settings higher for visibility the font size will increase accordingly.
-
+![Mockup](/readme-files/Accessibility.png)
 
 ###### Footer 
 
