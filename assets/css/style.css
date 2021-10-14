@@ -496,7 +496,7 @@ p {
         object-fit: cover;
         height: 650px;
         width: 100%;
-        background: url(../css/images/fingers2.jpg) bottom center;
+        background:  no-repeat bottom center;
     }
 
     .times {
@@ -560,7 +560,7 @@ p {
         object-fit: cover;
         height: 650px;
         width: 100%;
-        background: url(../css/images/fingers2.jpg) bottom center;
+        background: no-repeat bottom center;
     }
 
     .contact-us {

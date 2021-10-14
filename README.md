@@ -1,6 +1,4 @@
-[CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
-
-[Main Mockup](/readme-images/hpmockup.png) 
+[CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png) 
 
 [Link to Live Website](https://alanwhelan1978.github.io/twinklers-montessori/)
 
@@ -94,15 +92,15 @@ Due to the business being a school I had no images to use from the company as pa
 
     -   #### Main Page Mockup
 
-![Home](/readme-images/hpmockup.png)
+![Home](/readme-files/hpmockup.png)
 
     -   #### Your Journey Mockup
 
-![Menu](/readme-images/yjmockup.png)
+![Journey](/readme-files/yjmockup.png)
 
     -   #### Contact Page Mockup
 
-![Contact](/readme-images/cpmockup.png)
+![Contact](/readme-files/cpmockup.png)
 
 
 ## Features
