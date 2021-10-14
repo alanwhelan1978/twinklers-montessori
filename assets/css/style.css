@@ -698,7 +698,7 @@ p {
         object-fit: cover;
         height: 650px;
         width: 100%;
-        background: no-repeat bottom center;
+        background: no bottom center;
     }
 
     .contact-us {
