@@ -90,15 +90,15 @@ Due to the business being a school I had no images to use from the company as pa
 
 ### Wireframes
 
-    -   #### Main Page Mockup
+  -   #### Main Page Mockup
 
 ![Home](/readme-files/hpmockup.png)
 
-    -   #### Your Journey Mockup
+  -   #### Your Journey Mockup
 
 ![Journey](/readme-files/yjmockup.png)
 
-    -   #### Contact Page Mockup
+  -   #### Contact Page Mockup
 
 ![Contact](/readme-files/cpmockup.png)
 
@@ -152,16 +152,17 @@ The error showing on the contact page is from the facebook plugin
 - [HTML Validator](https://validator.w3.org/)
 
     - result for index.html
-      ![HTML results index](/workspace/twinklers-montessori/readme-files/HTML-Home.PNG)
+      ![HTML results index](/readme-files/HTML-Home.png)
     - result for menu.html
-      ![HTML results your-journey](/workspace/twinklers-montessori/readme-files/HTML-Journey.PNG)
+      ![HTML results your-journey](/readme-files/HTML-Journey.png)
     - result for contact.html
-      ![HTML results contact](/workspace/twinklers-montessori/readme-files/HTML-Journey.PNG)
+      ![HTML results contact](/readme-files/HTML-Contact.png)
 
 - ![CSS Validator](https://jigsaw.w3.org/css-validator/)
 
-       - result for styles.css 
-- ![CSS results](/workspace/twinklers-montessori/readme-files/CSS Valid.PNG)
+
+- result for style.css
+      ![CSS results](/readme-files/CSS.png)
 
 ### Browser Compatibility
 
@@ -186,3 +187,34 @@ The error showing on the contact page is from the facebook plugin
 - Click the "Code" button to the right of the screen, click HTTPs and copy the link there
 - Open a GitBash terminal and navigate to the directory where you want to locate the clone
 - On the command line, type "git clone" then paste in the copied url and press the Enter key to begin the clone process
+
+## Known Bugs 
+* BUG -The code for the facebook plugin is showing up as an error on the html checker. 
+ 
+
+## Acknowledgements
+
+### Credit
+
+* Brian Macharia- Mentor support, guidance, tips, and key things to look out for throughout the project. Helping me to check for errors and looking at my code. 
+ 
+
+* [Code Institute SampleREADME](https://github.com/Code-Institute-Solutions/SampleREADME)
+* [Code Institute README Template](https://github.com/Code-Institute-Solutions/readme-template)
+* [W3schools](https://www.w3schools.com/) - for various code information and trouble shooting.
+* [Google fonts](https://fonts.google.com/) - CDN for the fonts were used in the project.
+* [Pexel](https://pexels.com/) All site images taken from Pexels -
+* [HTML Validator](https://validator.w3.org/) - Testing validity of HTML.
+* [CSS Validator](https://validator.w3.org/) -Testing validity of CSS.
+* [Am I Responsive](http://ami.responsivedesign.is/#) - Checking the responsive nature.
+* [Beautifer](https://beautifier.io/) - Allowing me beautify my code.
+* [Facebook](https://tinypng.com/) 
+
+
+
+*** 
+
+### Code:
+
+*  Facebook devolopers tools was used to get plugin for contact page.
+<iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FTwinklersMontessoriSchool&tabs=timeline&width=500&height=500&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId" width="500" height="500" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
