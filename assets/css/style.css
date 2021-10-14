@@ -202,8 +202,8 @@ iframe {
 .contact-us {
     margin: 1px 10% 0 250px;
     float: right;
-    color: #fff;
-    background-color: #0288d1;
+    color: rgb(7, 0, 0);
+    background-color: #069cec;
     max-width: 400px;
     left: 10%;
     padding: 10px;
