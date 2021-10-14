@@ -60,19 +60,22 @@ The website will consist of 3 separate pages
 * A page with a form to contact the business. 
 
 ## Home
-[Home Page](/readme-files/home2.png)
+![Home Page](/readme-files/home2.png)
 * The home page gives a breif indroduction to the business
 * Allows the user to navigate the rest of the site
 * Provides information to the user as to what the site is for.
 
 ## Your Journey
-[Your Journey](/readme-files/Journey2.png)
+![Your Journey](/readme-files/Journey2.png)
 * The your journey page gives the user information on the Montessori experience
 * Allows the user to see more of what the business offers
 * Allows the user to navigate the rest of the site
 
 ## Contact Us
-[Contact us](/re)
+![Contact us](/readme-files/Contact2.png)
+* The contact page allows the user to contact the business using a contact form
+* It allows the user to see social media feed and like and meesage the sociall media page
+* Allows the user to navigate the rest of the site
 
 #### Colour
 
