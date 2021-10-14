@@ -94,15 +94,15 @@ Due to the business being a school I had no images to use from the company as pa
 
     -   #### Main Page Mockup
 
-        ![Home](/readme-images/hpmockup.png)
+![Home](/readme-images/hpmockup.png)
 
     -   #### Your Journey Mockup
 
-        ![Menu](/readme-images/yjmockup.png)
+![Menu](/readme-images/yjmockup.png)
 
     -   #### Contact Page Mockup
 
-        ![Contact](/readme-images/cpmockup.png)
+![Contact](/readme-images/cpmockup.png)
 
 
 ## Features
@@ -116,7 +116,7 @@ The Navigation Bar is at the top of the right of webpage. The nav links all unde
 ###### Responsiveness
 
 The page is scaled up and down for different screen resolutions to help the content stay neat. This has been done using media queries.
-![Mockup](/readme-files/hpmockup.png)
+![Mockup](/readme-files/Accessibility.png)
 
 
 ###### Accessibility
