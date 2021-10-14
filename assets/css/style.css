@@ -90,10 +90,9 @@ h2 {
 }
 
 #home-page {
-    object-fit: cover;
     height: var(--content-height);
     width: var(--content-width);
-    background: url(../images/fingers2.jpg) no-repeat center center;
+    background: url(../images/fingers.jpg) no-repeat center center;
 
 }
 
