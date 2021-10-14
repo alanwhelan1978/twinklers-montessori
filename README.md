@@ -1,6 +1,6 @@
 [CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
 
-[Main Mockup](/workspace/twinklers-montessori/readme-images/cpmockup.png) 
+[Main Mockup](/readme-images/hpmockup.png) 
 
 [Link to Live Website](https://alanwhelan1978.github.io/twinklers-montessori/)
 
@@ -62,6 +62,7 @@ The website will consist of 3 separate pages
 * A page with a form to contact the business. 
 ***
 ## Designs
+
 
 ## Surface
 
