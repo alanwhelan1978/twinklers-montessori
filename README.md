@@ -158,7 +158,8 @@ The error showing on the contact page is from the facebook plugin
     - result for contact.html
       ![HTML results contact](/readme-files/HTML-Contact.png)
 
-- ![CSS Validator](https://jigsaw.w3.org/css-validator/)
+    - result for css
+      ![CSS Validator](https://jigsaw.w3.org/css-validator/)
 
 
 - result for style.css
@@ -209,7 +210,6 @@ The error showing on the contact page is from the facebook plugin
 * [Am I Responsive](http://ami.responsivedesign.is/#) - Checking the responsive nature.
 * [Beautifer](https://beautifier.io/) - Allowing me beautify my code.
 * [Facebook](https://facebook.com/) 
-
 
 
 *** 
