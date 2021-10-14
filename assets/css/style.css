@@ -306,6 +306,21 @@ p {
         position: relative;
         width: 100%;
     }
+    .fing {
+        max-width: 250px;
+    }
+
+    .lessons {
+        max-width: 250px;
+    }
+
+    .jar {
+        max-width: 250px;
+    }
+
+    .car {
+        max-width: 250px;
+    }
 
 }
 
@@ -425,6 +440,23 @@ p {
         max-height: 450px;
         position: relative;
         width: auto;
+    }
+
+    
+    .fing {
+        max-width: 200px;
+    }
+
+    .lessons {
+        max-width: 200px;
+    }
+
+    .jar {
+        max-width: 200px;
+    }
+
+    .car {
+        max-width: 200px;
     }
 
 }
@@ -547,6 +579,14 @@ p {
         position: relative;
         width: 100%;
     }
+
+    .fing {
+        float: left;
+    }
+
+    .lessons {
+        float: left;
+    }
 }
 
 @media screen and (max-width: 375px) {
@@ -607,6 +647,14 @@ p {
         position: relative;
         width: 100%;
     }
+    
+    .fing {
+        float: left;
+    }
+
+    .lessons {
+        float: left;
+    }
 }
 
 @media screen and (max-width: 320px) {
@@ -633,6 +681,7 @@ p {
 
     body {
         text-align: justify;
+        width: auto;
     }
 
     footer {
@@ -666,5 +715,13 @@ p {
         max-width: 400px;
         max-height: 450px;
         width: auto;
+    }
+
+    .fing {
+        float: left;
+    }
+
+    .lessons {
+        float: left;
     }
 }
